@@ -16,14 +16,13 @@ html, body {
 
     display: grid;
     justify-items: center;
-    align-items: center;
 
     font-family: 'Raleway', sans-serif;
 }
 
 #container #content {
     width: 80%;
-    margin: 48px;
+    margin-top: 128px;
 }
 
 #container #content h1 {
@@ -52,7 +51,7 @@ html, body {
 }
 
 #container #content #work {
-    margin-top: 256px;
+    margin-top: 96px;
 }
 
 #container #content #projects {
