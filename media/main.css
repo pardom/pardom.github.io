@@ -44,20 +44,20 @@ html, body {
     text-transform: uppercase;
 }
 
+#container #content img {
+    margin-right: 16px;
+}
+
 #container #content #social img {
     width: 36px;
     height: 36px;
-    margin-right: 16px;
 }
 
 #container #content #work {
     margin-top: 128px;
 }
 
-#container #content #work img {
-    margin-right: 16px;
-}
-
 #container #content #projects {
     margin-top: 48px;
 }
+
