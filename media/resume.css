@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap');
+
+/**************************************************************************************************
+ * General
+ *************************************************************************************************/
+
+html, body {
+    padding: 0.1in;
+
+    display: grid;
+    justify-content: center;
+    align-content: top;
+
+    background: #ddd;
+
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+
+/**************************************************************************************************
+ * Printing
+ *************************************************************************************************/
+
+@media print {
+    body * {
+        visibility: hidden;
+    }
+
+    #container, #container * {
+        visibility: visible;
+    }
+
+    #container {
+        position: absolute;
+        left: 0;
+        top: 0;
+        box-shadow: none!important;
+    }
+}
+
+/**************************************************************************************************
+ * Layout
+ *************************************************************************************************/
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 999fr;
+    grid-template-areas: "intro intro intro intro contact contact contact" "experience experience experience experience skills skills skills";
+}
+
+#intro { grid-area: intro; }
+
+#contact { grid-area: contact; }
+
+#skills { grid-area: skills; }
+
+#experience { grid-area: experience; }
+
+/**************************************************************************************************
+ * Elements
+ *************************************************************************************************/
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+h1 {
+    font-size: 0.5in;
+}
+
+h2 {
+    font-size: 0.2in;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 0.18in;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+h4 {
+    font-size: 0.17in;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p {
+    font-size: 0.15in;
+    font-weight: 300;
+}
+
+section {
+    margin-bottom: 0.25in;
+}
+
+time {
+    font-size: 0.15in;
+    font-weight: 300;
+    color: #888;
+}
+
+
+/**************************************************************************************************
+ * Sections
+ *************************************************************************************************/
+
+#container {
+    width: 8.5in;
+    height: 11in;
+    padding: 1in;
+
+    background: #fff;
+    color: #333;
+
+    box-shadow: 0in 0.25in 0.25in 0.25in rgba(0,0,0,0.05);
+}
+
+#intro, #contact {
+    margin-bottom: 0.5in;
+    padding-bottom: 0.5in;
+    border-bottom: 1px solid #888;
+}
+
+#intro p, #intro h1 {
+    margin: 0;
+}
+
+#intro p {
+    font-size: 0.2in;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column-reverse;
+    color: #888;
+}
+
+#contact ul li {
+    float: right;
+}
+
+#experience {
+    margin-right: 0.25in;
+}
+
+#skills {
+    margin-left: 0.25in;
+}
