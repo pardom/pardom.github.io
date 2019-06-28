@@ -15,7 +15,7 @@ html, body {
 }
 
 #bg_small {
-    filter: blur(1rem);
+    filter: blur(10px);
     background-image: url('bg_small.png');
 }
 
