@@ -70,14 +70,6 @@ html, body {
     height: 36px;
 }
 
-#container #content #work {
-    margin-top: 96px;
-}
-
-#container #content #projects {
-    margin-top: 24px;
-}
-
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
