@@ -38,6 +38,17 @@ html, body {
     background: rgba(0, 0, 0, 0.8);
 }
 
+#container a {
+    color: #dddddd;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+#container a:hover {
+    color: #eeeeee;
+    text-decoration: underline;
+}
+
 #container #content {
     width: 80%;
     margin: 128px 24px 24px 24px;
