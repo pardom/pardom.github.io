@@ -81,7 +81,7 @@ ul li {
 }
 
 h1 {
-    font-size: 0.5in;
+    font-size: 0.4in;
 }
 
 h2 {
@@ -91,13 +91,13 @@ h2 {
 }
 
 h3 {
-    font-size: 0.18in;
+    font-size: 0.175in;
     font-weight: 500;
     margin-bottom: 0;
 }
 
 h4 {
-    font-size: 0.17in;
+    font-size: 0.15in;
     font-weight: 300;
     margin-top: 0;
     margin-bottom: 0;
@@ -135,8 +135,8 @@ time {
 }
 
 #intro, #contact {
-    margin-bottom: 0.5in;
-    padding-bottom: 0.5in;
+    margin-bottom: 0.2in;
+    padding-bottom: 0.2in;
     border-bottom: 1px solid #888;
 }
 
