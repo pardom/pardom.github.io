@@ -14,7 +14,7 @@ html, body {
     background: #ddd;
 
     font-family: 'Poppins', sans-serif;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
 /**************************************************************************************************
@@ -46,7 +46,7 @@ html, body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: auto auto;
-    grid-template-areas: "intro intro intro intro contact contact contact" "experience experience experience experience skills skills skills";
+    grid-template-areas: "intro intro intro intro contact contact contact" "experience experience experience experience experience  skills skills";
 }
 
 #intro { grid-area: intro; }
@@ -135,8 +135,8 @@ time {
 }
 
 #intro, #contact {
-    margin-bottom: 0.2in;
-    padding-bottom: 0.2in;
+    margin-bottom: 0.1in;
+    padding-bottom: 0.1in;
     border-bottom: 1px solid #888;
 }
 
@@ -145,7 +145,7 @@ time {
 }
 
 #intro p {
-    font-size: 0.2in;
+    font-size: 0.15in;
 }
 
 #contact {
